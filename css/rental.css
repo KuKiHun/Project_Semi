@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+element.style {
+    margin-bottom: 24px;
+}
+
+.membershipGrayBox {
+    display: flex;
+    width: calc(100% + 32px);
+    margin: 0 -16px;
+    align-items: center;
+    justify-content: center;
+    background-color: #F7F7F7;
+    padding: 16px;
+}
+
+.membershipGrayBox_inner {
+    flex: 1;
+}
+
+.membershipGrayBox_title {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.membershipGrayBox_text {
+    font-size: 10px;
+    line-height: 15px;
+    color: #666666;
+}
+
+.membershipCard {
+    display: flex;
+    background: #ffffff;
+    box-shadow: 0px 3px 8px 0 rgba(0,0,0,0.2);
+}
+
+.membershipCard_left {
+    position: relative;
+    flex: 1;
+    padding: 16px 16px 40px;
+}
+
+.membershipCard_leftTop {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 8px;
+}
+
+.membershipCard_leftMidListItem {
+    position: relative;
+    font-size: 10px;
+    line-height: 15px;
+    color: #666666;
+}
+
+.membershipCard_leftMidNoti {
+    font-size: 10px;
+    line-height: 15px;
+    color: #5930AC;
+}
+
+.membershipCard_leftMidListItem:before {
+    content: "-";
+    display: inline-block;
+    margin-right: 4px;
+}
+
+.membershipCard_leftBot {
+    position: absolute;
+    left: 16px;
+    bottom: 16px;
+    font-size: 10px;
+    line-height: 15px;
+    color: #666666;
+}
+
+.membershipCard_right {
+    position: absolute;
+    right : 10;
+    top: 10;
+    flex: none;
+    min-width: 120px;
+    padding: 16px 16px 64px;
+    background: #333333;
+    color: #FFFFFF;
+}
+
+.membershipCard_rightBtn {
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+    display: block;
+    width: calc(100% - 32px);
+    font-weight: bold;
+    font-size: 10px;
+    text-align: center;
+    line-height: 32px;
+    color: #333333;
+    background-color: #FFFFFF;
+}
